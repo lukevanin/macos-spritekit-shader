@@ -14,6 +14,7 @@
 		FCEDE56C2390208400F38BE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEDE56B2390208400F38BE5 /* ViewController.swift */; };
 		FCEDE56E2390208500F38BE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEDE56D2390208500F38BE5 /* Assets.xcassets */; };
 		FCEDE5712390208500F38BE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEDE56F2390208500F38BE5 /* Main.storyboard */; };
+		FCEDE57A2390212700F38BE5 /* mandelbrot.fsh in Resources */ = {isa = PBXBuildFile; fileRef = FCEDE5792390212700F38BE5 /* mandelbrot.fsh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		FCEDE5702390208500F38BE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FCEDE5722390208500F38BE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCEDE5732390208500F38BE5 /* MacShaderTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacShaderTest.entitlements; sourceTree = "<group>"; };
+		FCEDE5792390212700F38BE5 /* mandelbrot.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = mandelbrot.fsh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				FCEDE56F2390208500F38BE5 /* Main.storyboard */,
 				FCEDE5722390208500F38BE5 /* Info.plist */,
 				FCEDE5732390208500F38BE5 /* MacShaderTest.entitlements */,
+				FCEDE5792390212700F38BE5 /* mandelbrot.fsh */,
 			);
 			path = MacShaderTest;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 				FCEDE56E2390208500F38BE5 /* Assets.xcassets in Resources */,
 				FCEDE5682390208400F38BE5 /* Actions.sks in Resources */,
 				FCEDE5712390208500F38BE5 /* Main.storyboard in Resources */,
+				FCEDE57A2390212700F38BE5 /* mandelbrot.fsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

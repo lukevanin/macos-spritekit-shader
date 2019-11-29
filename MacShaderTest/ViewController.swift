@@ -28,9 +28,9 @@ class ViewController: NSViewController {
             }
             
             view.ignoresSiblingOrder = true
-            
-            view.showsFPS = true
-            view.showsNodeCount = true
+            view.allowsTransparency = false
+//            view.showsFPS = true
+//            view.showsNodeCount = true
         }
     }
 }
