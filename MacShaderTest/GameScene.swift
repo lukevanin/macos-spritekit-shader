@@ -30,7 +30,8 @@ class GameScene: SKScene {
         )
         sprite.blendMode = .replace
         
-        let shader = SKShader(fileNamed: "mandelbrot.fsh")
+//        let shader = SKShader(fileNamed: "mandelbrot.fsh")
+        let shader = SKShader(fileNamed: "raymarching.fsh")
         sprite.shader = shader
         
         let spriteSize = vector_float2(

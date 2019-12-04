@@ -44,10 +44,6 @@ vec2 complex_multiply(vec2 lhs, vec2 rhs) {
     return vec2(r, i);
 }
 
-//vec2 pow_2_complex(vec2 c) {
-//    return vec2(c.x * c.x - c.y * c.y, 2.0 * c.x * c.y);
-//}
-
 vec2 pow_complex(vec2 c, float e) {
     float t = atan(c.y, c.x) * e;
     float r = pow(length(c), e);
@@ -58,7 +54,6 @@ vec2 pow_complex(vec2 c, float e) {
 
 vec4 i_to_rgb(float i, float t, float n) {
     float h = 0.5 + cos((t * 0.1) + (n * 2.0) + (i * 0.4)) * 0.5;
-//    float b = (0.5 + (1.0 - n) * 0.5) - (cos(i * 4.0) * 0.1);
     float b = (1.0 - (n * 0.9)) * (0.8 + i * 0.5);
     float s = 0.25 - (n * 0.125);
     return hsv_to_rgb(h, s, b);
